@@ -8,8 +8,6 @@ def calculate():
     c = float(entry_c.get())
     
     # Рахуємо нашу формулу. 
-    # math.tan(c) - це тангенс c
-    # math.sqrt(...) - це квадратний корінь
     f = math.tan(c) - math.sqrt(c / b + a)
     
     # Виводимо готовий результат у наш текстовий напис знизу
